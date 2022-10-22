@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Fairy02 : MonoBehaviour
 {
-    private Vector2 fairyPos;
+    private Vector3 fairyPos;
     public float A = 1.0f;
     public float B = 4.0f;
 
@@ -15,10 +15,11 @@ public class Fairy02 : MonoBehaviour
     }
     private void Update()
     {
-        transform.position = new Vector2(Mathf.Sin(A * Time.time) * 100.0f + fairyPos.x, Mathf.Cos(B * Time.time) * 1.0f + fairyPos.y);
+        transform.position = new Vector3(Mathf.Sin(A * Time.time) * 100.0f + fairyPos.x, Mathf.Cos(B * Time.time) * 1.0f + fairyPos.y);
 
         if (transform.position.x >= 25.0f)
         {
+            Debug.Log("kieru");
             Destroy(gameObject);
         }
     }
