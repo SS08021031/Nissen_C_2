@@ -9,17 +9,23 @@ EditorUserSettings:
       value: 22424703114646680e0b0227036c6e22580216233831
       flags: 0
     RecentlyUsedScenePath-1:
+<<<<<<< HEAD
       value: 22424703114646680e0b0227036c6b190212142f623d28393930
       flags: 0
     RecentlyUsedScenePath-2:
 <<<<<<< HEAD
+=======
+>>>>>>> parent of f542784 (result画像追加)
       value: 22424703114646680e0b0227036c4d150502143e623d28393930
 =======
       value: 22424703114646680e0b0227036c6b190212142f623d28393930
 >>>>>>> origin/main
       flags: 0
-    RecentlyUsedScenePath-3:
+    RecentlyUsedScenePath-2:
       value: 22424703114646680e0b0227036c761e1116152f623d28393930
+      flags: 0
+    RecentlyUsedScenePath-3:
+      value: 22424703114646680e0b0227036c6b190212142f623d28393930
       flags: 0
     vcSharedLogLevel:
       value: 0d5e400f0650
